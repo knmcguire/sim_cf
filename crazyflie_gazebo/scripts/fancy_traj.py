@@ -108,8 +108,7 @@ if __name__ == '__main__':
 	next_pos = Position()
 
 	# Choose a trajectory
-	chosen_traj = raw_input('[ circle spiral conical_helix uniform_helix ]')
-
+	chosen_traj = input('[ circle spiral conical_helix uniform_helix ]')
 	# Takeoff first -> go to 0, 0 , 1
 	while ((0-current_position.x)**2 + (0 - current_position.y)**2 + (1 - current_position.z)**2) > 1e-2 : # 10cm 
 			next_pos.x = 0

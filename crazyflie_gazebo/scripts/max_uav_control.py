@@ -9,8 +9,8 @@ import sys
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print "Wrong number of arguments !"
-        print "Example : python max_uav_control.py [nbQuads] [tfPrefix]"
+        print("Wrong number of arguments !")
+        print("Example : python max_uav_control.py [nbQuads] [tfPrefix]")
         sys.exit()
 
     nbQuads = int(sys.argv[1])
